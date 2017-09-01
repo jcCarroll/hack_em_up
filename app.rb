@@ -11,4 +11,6 @@ post '/add_book' do
     city = params[:city]
     state = params[:state]
     zipcode = params[:zipcode]
+    
+    erb :index
 end
