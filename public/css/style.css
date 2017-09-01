@@ -6,11 +6,16 @@ body {
     text-align: center;
 }
 
+input {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
 .table {
     margin: 0 auto;
 }
 
-.labelSize {
-    width: 50%;
+.tableAlign {
     text-align: right;
 }
