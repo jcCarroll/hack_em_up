@@ -19,3 +19,9 @@ input {
 .tableAlign {
     text-align: right;
 }
+
+.btnSubmit {
+    margin-top: 5px;
+    position: relative;
+    left: 95px;
+}
