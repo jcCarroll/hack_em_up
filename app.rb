@@ -25,7 +25,7 @@ post '/add_book' do
     state = params[:state]
     zipcode = params[:zipcode]
 
-    db.exec ("INSERT INTO data (fname, lname, street, city, state, zipcode) VALUES ('#{fname}', '#{lname}', '#{address}','#{city}', '#{state}', '#{zipcode}')" )
+    db.exec ("INSERT INTO data (fname, lname, street, city, state, zipcode) VALUES ('#{fname}', '#{lname}', '#{street}','#{city}', '#{state}', '#{zipcode}')" )
     db.close
 
     erb :index
