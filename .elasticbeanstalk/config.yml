@@ -1,6 +1,6 @@
 branch-defaults:
   master:
-    environment: hack-em
+    environment: hack-test-app
     group_suffix: null
 global:
   application_name: hack_em_up
