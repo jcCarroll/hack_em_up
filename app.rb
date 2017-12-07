@@ -19,14 +19,17 @@ end
 
 post '/add_book' do
     fname = params[:fname]
-    lname = params[:lname]
-    street = params[:street]
-    city = params[:city]
-    state = params[:state]
-    zipcode = params[:zipcode]
+    # lname = params[:lname]
+    # street = params[:street]
+    # city = params[:city]
+    # state = params[:state]
+    # zipcode = params[:zipcode]
 
-    db.exec ("INSERT INTO data (fname, lname, street, city, state, zipcode) VALUES ('#{fname}', '#{lname}', '#{street}','#{city}', '#{state}', '#{zipcode}')" )
-    db.close
+    # db.exec ("INSERT INTO namestable (firstname) VALUES ('#{fname}')")
+    # db.close
+
+    # db.exec ("INSERT INTO data (fname, lname, street, city, state, zipcode) VALUES ('#{fname}', '#{lname}', '#{street}','#{city}', '#{state}', '#{zipcode}')" )
+    # db.close
 
     erb :index
 end
